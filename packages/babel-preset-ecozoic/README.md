@@ -16,13 +16,13 @@ A Babel preset to quickly bootstrap a new application
 
 ## Installation
 ```bash
-npm install @ecozoic/babel-preset-ecozoic
+npm install @zoic/babel-preset-ecozoic
 ```
 
 `.babelrc`
 ```json
 {
-  "presets": ["@ecozoic/ecozoic"]
+  "presets": ["@zoic/ecozoic"]
 }
 ```
 
@@ -31,7 +31,7 @@ You can optionally configure the preset by passing in an options object in `.bab
 ```json
 {
   "presets": [
-    ["@ecozoic/ecozoic", {
+    ["@zoic/ecozoic", {
       "env": {
         "modules": false,
       },

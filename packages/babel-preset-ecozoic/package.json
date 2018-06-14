@@ -1,5 +1,5 @@
 {
-  "name": "@ecozoic/babel-preset-ecozoic",
+  "name": "@zoic/babel-preset-ecozoic",
   "version": "1.0.0",
   "description": "Babel preset by ecozoic",
   "author": "ecozoic <johnnn.mitchell@gmail.com>",
