@@ -24,7 +24,10 @@ export default function buildPreset(context, opts = {}) {
 
   return {
     presets: [
-      opts.env !== false && [presetEnv, opts.env], // set modules: false by default
+      opts.env !== false && [presetEnv, {
+        modules: false,
+        ...opts.env,
+      }],
       opts.react !== false && presetReact,
     ].filter(Boolean),
     plugins: [
